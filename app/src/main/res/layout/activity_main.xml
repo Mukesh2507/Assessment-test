@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_up_arrow_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/buttonTopLeft"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/b_tl"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:text="B1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonTopRight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/b_tr"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:text="B2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonBottomLeft"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/b_bl"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonBottomRight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:background="@drawable/b_br"
+        android:foregroundTint="@android:color/white"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:text="B3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
